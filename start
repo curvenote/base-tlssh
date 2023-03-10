@@ -1,0 +1,4 @@
+#!/bin/bash
+export PATH=/opt/homebrew/Caskroom/miniforge/base/envs/vermillion-image-class/bin:$PATH
+export TESSDATA_PREFIX=/opt/homebrew/Caskroom/miniforge/base/envs/vermillion-image-class/share/tessdata/
+exec "$@"

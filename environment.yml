@@ -1,0 +1,21 @@
+name: vermillion-image-class
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - jupyterlab
+  - pillow
+  - matplotlib
+  - scikit-image
+  - scikit-learn
+  - pandas
+  - tesseract
+  - pytesseract
+  - pip
+  - pip:
+      - comtypes
+      - opencv-python
+      - pymupdf
+      - termcolor
+      - func_timeout
+      - jupyterlab-myst
